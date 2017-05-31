@@ -1,2 +1,2 @@
 # LightningOnDeath
-A lightweight Spigot plugin that strikes a lightning effect where player dies
+A lightweight Spigot plugin that spawns a lightning effect where player dies
