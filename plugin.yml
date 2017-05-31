@@ -1,0 +1,4 @@
+name: LightningOnDeath
+main: com.ezyro.emanhmc.Main
+version: 1.0
+commands:
