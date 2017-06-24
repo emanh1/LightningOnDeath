@@ -1,4 +1,6 @@
 name: LightningOnDeath
-main: com.ezyro.emanhmc.Main
-version: 1.0
-commands:
+version: 1.2
+description: Spawns a harmless lightning where a player dies
+author: emanh
+website: http://emanhmc.ezyro.com
+main: com.ezyro.emanhmc.lod
