@@ -12,14 +12,11 @@ public class Main extends JavaPlugin implements Listener {
 	public void onEnable() {
 		getServer().getPluginManager().registerEvents(this, this);
 	}
-	@Override
-	public void onDisable() {
-		
-	}
+	
 	@EventHandler
 	public void onPlayerDeath(PlayerDeathEvent e) {
-		Player p = e.getEntity().getPlayer();
-		p.getWorld().strikeLightningEffect(p.getLocation());
+		Player died = e.getEntity().getPlayer();
+		died.getWorld().strikeLightningEffect(died.getLocation());
 	}
 
 }
